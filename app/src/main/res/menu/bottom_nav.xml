@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_1"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/navigation_2"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="멘토매칭" />
+
+    <item
+        android:id="@+id/navigation_3"
+        android:icon="@drawable/ic_baseline_grade_24"
+        android:title="멘토랭킹" />
+
+    <item
+        android:id="@+id/navigation_4"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="설정" />
+
+</menu>
