@@ -43,10 +43,10 @@ public class RankAdapter extends BaseAdapter {
     public View getView(int position, View v, ViewGroup parent) {
         View view = rLayoutInflater.inflate(R.layout.mentor_item, null);
 
-        ImageView image = (ImageView)view.findViewById(R.id.image);
+        ImageView image = (ImageView)view.findViewById(R.id.mentor_image);
         image.setBackground(new ShapeDrawable(new OvalShape()));
-        TextView name = (TextView)view.findViewById(R.id.name);
-        TextView spec = (TextView)view.findViewById(R.id.spec);
+        TextView name = (TextView)view.findViewById(R.id.mentor_name);
+        TextView spec = (TextView)view.findViewById(R.id.mentor_spec);
         TextView intro = (TextView)view.findViewById(R.id.intro);
 
         // image.setImageResource(mentorList.get(position).getImage());

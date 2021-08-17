@@ -13,14 +13,15 @@
             android:id="@+id/mentor_image"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:backgroundTint="#3F51B5"/>
+            android:backgroundTint="@color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
             android:orientation="vertical">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/mentor_name"
                 android:text="NAME"
@@ -30,79 +31,107 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/mentor_spec"
-                android:text="SPEC"
+                android:text="MAJOR/JOB/CAREER"
                 android:textSize="24sp">
             </TextView>
         </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mentor_score"
+            android:text="SCORE"
+            android:textSize="18sp"
+            android:layout_gravity="center">
+        </TextView>
     </LinearLayout>
     <TextView
         android:id="@+id/intro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="INTRODUCTION"
-        android:textSize="18sp">
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
     </TextView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="16dp">
+        android:padding="8dp">
         <ImageView
             android:id="@+id/mentee_image1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:backgroundTint="#3F51B5"/>
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/black"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:layout_weight="1"
             android:orientation="vertical">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/mentee_name1"
-                android:text="NAME"
-                android:textSize="30sp">
+                android:text="NAME1"
+                android:textSize="24sp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/mentee_comment1"
-                android:text="SPEC"
+                android:text="COMMENT1"
                 android:textSize="24sp">
             </TextView>
         </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mentee_score1"
+            android:text="SCORE"
+            android:textSize="18sp"
+            android:layout_gravity="center">
+        </TextView>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="16dp">
+        android:padding="8dp">
         <ImageView
             android:id="@+id/mentee_image2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:backgroundTint="#3F51B5"/>
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/black"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:layout_weight="1"
             android:orientation="vertical">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/mentee_name2"
-                android:text="NAME"
-                android:textSize="30sp">
+                android:text="NAME2"
+                android:textSize="24sp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/mentee_comment2"
-                android:text="SPEC"
+                android:text="COMMENT2"
                 android:textSize="24sp">
             </TextView>
         </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mentee_score2"
+            android:text="SCORE"
+            android:textSize="18sp"
+            android:layout_gravity="center">
+        </TextView>
     </LinearLayout>
 
 </LinearLayout>
